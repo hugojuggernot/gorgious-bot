@@ -3,7 +3,7 @@ const bot = new Discord.Client()
 
 bot.on('ready', () => { bot.user.setGame('Victimise des daronnes') })
 
-client.login(process.env.BOT_TOKEN);
+
 
 bot.on('message', function (message) {
 
@@ -220,3 +220,4 @@ bot.on('message', function (message) {
 }
 });
 
+client.login(process.env.BOT_TOKEN);
