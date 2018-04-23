@@ -1,15 +1,18 @@
 {
-  "name": "Gorgious"
-  "description": "Victimisateur de daronnes"
-  "vesion": "1.0.0"
-  "main": "index.js"
-  "scripts":{
-  
-     "start": "node index.js"
-  } 	
-     "dependencies": {
+  "name": "Gorgious",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mongoose": "3.8.7",
+    "express": "3.4.8",
+    "jade": "*",
+    "stylus": "*"
+  {
+    "engines": {
+        "node": "0.10.x"
+    }, 
 
-      "discord.js": "11.1.0"
-      "request": "2.81.0"
-     }
-}
+    "name": "heroku",...
